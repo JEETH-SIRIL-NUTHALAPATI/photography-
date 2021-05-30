@@ -1,0 +1,43 @@
+body {
+  text-shadow: 3px 3px 3px 3px rgb(214, 150, 150);
+  background-color: aliceblue;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+img {
+  box-shadow: 5px 5px 20px black;
+
+  width: 85vw;
+  background-size: cover;
+}
+
+.g2 {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 85vw;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 42.5vw 42.5vw;
+}
+
+h1 {
+  padding-top: 13rem;
+}
+
+.info {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(19, 146, 146);
+}
+
+.info > img {
+  width: 42.5vw;
+}
